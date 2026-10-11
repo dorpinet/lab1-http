@@ -1,0 +1,39 @@
+{
+  "info": {
+    "_postman_id": "c97f904d-7f0f-46f7-8984-c7a1e72a1403",
+    "name": "lab1_neymet",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "45518059"
+  },
+  "item": [
+    {
+      "name": "https://dummyjson.com/products/1",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "   { \"title\": \"new bibu\" }",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://dummyjson.com/products/1",
+          "protocol": "https",
+          "host": [
+            "dummyjson",
+            "com"
+          ],
+          "path": [
+            "products",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
